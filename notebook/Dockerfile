@@ -32,6 +32,7 @@ RUN pip install --no-cache-dir gql[requests]
 RUN pip install --no-cache-dir tqdm
 
 COPY env/key.env /app/.env
+COPY app.env /app/app.env
 
 # Make port available to the world outside this container
 EXPOSE 8888
