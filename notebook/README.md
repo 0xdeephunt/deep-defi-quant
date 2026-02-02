@@ -1,5 +1,14 @@
 # Jupyter Notebook
 
+## Create Conda
+
+```shell
+conda create -c conda-forge -n jupyter python=3.12
+conda activate jupyter
+conda install -y -c conda-forge jupyterlab
+conda install -y -c conda-forge pandas numpy requests web3 pyarrow matplotlib ipywidgets seaborn plotly python-dotenv gql[requests] tqdm requests-toolbelt
+```
+
 ## Build docker
 
 ```shell
