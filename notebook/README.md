@@ -9,6 +9,7 @@ conda install -y -c conda-forge jupyterlab
 conda install -y -c conda-forge pandas numpy requests web3 pyarrow matplotlib ipywidgets seaborn plotly python-dotenv gql[requests] tqdm requests-toolbelt
 
 pip install "subgrounds[all]"
+pip install backtrader
 ```
 
 ## Build docker
